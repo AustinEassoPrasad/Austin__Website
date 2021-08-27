@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Austin__Website/static/css/main.8f0755b3.chunk.css",
+    "main.js": "/Austin__Website/static/js/main.8c336734.chunk.js",
+    "main.js.map": "/Austin__Website/static/js/main.8c336734.chunk.js.map",
+    "runtime-main.js": "/Austin__Website/static/js/runtime-main.4addf27b.js",
+    "runtime-main.js.map": "/Austin__Website/static/js/runtime-main.4addf27b.js.map",
+    "static/css/2.11f87697.chunk.css": "/Austin__Website/static/css/2.11f87697.chunk.css",
+    "static/js/2.bc894252.chunk.js": "/Austin__Website/static/js/2.bc894252.chunk.js",
+    "static/js/2.bc894252.chunk.js.map": "/Austin__Website/static/js/2.bc894252.chunk.js.map",
+    "index.html": "/Austin__Website/index.html",
+    "static/css/2.11f87697.chunk.css.map": "/Austin__Website/static/css/2.11f87697.chunk.css.map",
+    "static/css/main.8f0755b3.chunk.css.map": "/Austin__Website/static/css/main.8f0755b3.chunk.css.map",
+    "static/js/2.bc894252.chunk.js.LICENSE.txt": "/Austin__Website/static/js/2.bc894252.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/Austin__Website/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4addf27b.js",
+    "static/css/2.11f87697.chunk.css",
+    "static/js/2.bc894252.chunk.js",
+    "static/css/main.8f0755b3.chunk.css",
+    "static/js/main.8c336734.chunk.js"
+  ]
+}
