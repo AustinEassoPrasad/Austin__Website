@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+body {
+    font-size: 0rem;
+    background: white;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .card {
+    position: relative;
+    margin-top: 20px;
+    margin-left: -12%;
+    background: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border-color: white;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.cointainer .card:hover {
+    transform: translateY(-10px);
+}
+
+.cointainer .card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(39, 39, 39);
+    z-index: 1000;
+}
+
+.percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: -50%;
+}
+
+.percent .number h2 {
+    color: rgb(144, 143, 143);
+    font-size: 40px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.card:hover .percent .number h2 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.percent .number h2 span {
+    font-size: 24px;
+    color: rgb(144, 143, 143);
+    transition: 0.5s;
+}
+
+.card:hover .percent .number h2 span {
+    color: #fff;
+}
+
+.text {
+    position: relative;
+    color: rgb(171, 171, 171);
+    font-weight: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.card:hover .text {
+    color: rgb(52, 52, 52);
+}
+
+svg circle {
+    width: 80%;
+    height: 80%;
+    fill: none;
+    stroke: #545353;
+    stroke-width: 10;
+    stroke-linecap: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #00ff43
+}
+
+.card:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+    stroke: #00a1ff
+}
+
+.card:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke: #ff04f7;
+}
